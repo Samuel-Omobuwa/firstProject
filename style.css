@@ -1,0 +1,124 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(17, 17, 80);
+   
+}
+
+/* .image{
+    max-width: fit-content;
+    display: flex;
+    padding-left: 30rem;
+    align-items: center;
+} */
+
+.navbar{
+    background-color: white;
+    text-align: left;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.Arshawebsite{
+    display: inline-block;
+}
+.navitem{
+    display: flex;
+    color: rgb(215, 196, 21);
+    text-align: center;
+    justify-content: right;
+    padding-left: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;   
+}
+.navitem li{
+    list-style: none;
+    width: 5rem;
+    border-radius: 20px;
+    padding: 5px; 
+}
+
+.navitem li a{
+    color: rgb(17, 17, 80);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navitem li a:hover{
+   color: #fff;
+       
+    transition: 0.2s;
+    
+}
+@media screen and (min-width: 178px){
+    .navbar{
+        background-color: cadetblue;
+
+    }
+}
+
+.heading{
+    margin-top: 3rem;
+    font-size: 60px;
+    color: white;
+    margin-top: 20rem;
+    margin-bottom: 1rem;
+    padding-left: 10rem;
+    padding-bottom: 1rem;
+    
+}
+
+h4{
+    color: white;
+    padding-left: 10rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding-bottom: 5rem;
+}
+.image{
+    margin-left: 20rem;
+    margin-top: 10%;
+    display: inline-block;
+}
+
+#getstarted-btn{
+    position: relative;
+    margin-left: 10rem;
+    margin-top: 0%;
+    margin-bottom: 5rem;
+    transform: matrix();
+    color: #fff;
+    height: 3rem;
+    width: 7rem;
+    background-color: rgb(215, 196, 21);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#getstarted-btn:hover{
+    background-color:#5f9ea0 ;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.footer{
+    height: 5rem;
+    background-color: rgb(215, 196, 21);
+    margin-bottom: none;
+}
+
+.aboutUs {
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    color:black;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: auto;
+    
+}
